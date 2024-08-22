@@ -1,0 +1,378 @@
+body{
+    background-color: rgb(235, 225, 212);
+    margin: 0;
+}
+
+.body-index {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(235, 225, 212);
+}
+
+.txtwelcome p {
+    font-weight: bold;
+    font-size: 7vw;
+    color: #000;
+    text-shadow: 8px 6px 0px rgba(0, 0, 0, 0.2);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    margin-left: 20px;
+    top: 7vw;
+}
+
+.txtwelcome .txtwelcomeanjass p {
+    font-size: 10.8vw;
+    letter-spacing: 0.5vw;
+    position: relative;
+    margin: 11.5vw 0 0 1.7vw;
+}
+
+.login {
+    margin-top: -15px;
+    position: relative;
+    top: 7vw;
+}
+
+.login a {
+    display: inline-block;
+    padding: 10px;
+    font-size: 2vw;
+    color: #fff;
+    background-color: #000;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 1vw 0 0 10vw;
+    width: 25%;
+    max-width: 400px;
+    border: none;
+    cursor: pointer;
+}
+
+.imgpaginic img {
+    margin: 1vw 0 0 64vw;
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    position: absolute;
+    top: 7vw;
+
+}
+
+.botaovoltar{
+    display: inline-block;
+    padding: 5px;
+    font-size: 25px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+.botaovoltar a{
+    text-decoration: none;
+    color: white;
+}
+
+.materias {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 50px 0;
+}
+
+.recursos {
+    width: 350px;
+    height: 150px;
+    border-radius: 25px;
+    display: block;
+    margin: 25px;
+}
+
+.recursos img{
+    border-radius: 90px;
+    display: flex;
+    width: 30%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: -30px;
+}
+
+.red { background-color: #d43021; }
+.orange { background-color: #e07715; }
+.yellow { background-color: #cf9425; }
+.green { background-color: #0caf3a; }
+.teal { background-color: #00bcd4; }
+.blue { background-color: #1e57b9; }
+.pink { background-color: #ff5c8a; }
+.purple { background-color: #c03d88; }
+.brown { background-color: #6b1286; }
+
+.cabecalho{
+    background-color: #000;
+    width: 100%;
+    height: 72px;
+    position: fixed;
+    top: 0px;
+}
+
+.cabecalho p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: end;
+    margin: 20px 20px 0 0;
+    font-size: 1.3vw;
+    right: 3vw;
+    position: absolute;
+}
+
+.cabecalho a{
+    text-decoration: underline;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: initial;
+    margin: 20px 0 0 20px;
+    font-size: 30px;
+    position: absolute;
+    left: 0px;
+}
+
+.cabecalho img{
+    position: absolute;
+    width: 4%;
+    height: auto;
+    right: 0px;
+}
+
+.alinhamento{
+    font-size: 35px;
+    text-align: center;
+}
+
+.alinhamento a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 40px 80px 70px 80px;
+    text-shadow: 3px 1.5px 3px #000;
+}
+.body-login {
+    background-color: rgb(235, 225, 212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: white;
+    padding: 28px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.login-container h1 {
+    text-align: center;
+    margin-top: -5px;
+    font-size: 36px;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.bt_entrar{
+    padding: 10px;
+    margin: 15px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.body-cadastro {
+    background-color: rgb(235, 225, 212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-container {
+    background-color: white;
+    padding: 28px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.signup-container h1 {
+    text-align: center;
+    margin-top: -5px;
+    font-size: 36px;
+}
+
+.signup-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-container label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+input[type="text"], input[type="date"], input[type="email"], input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.bt_cadastro{
+    padding: 10px;
+    margin: 15px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu-button{
+    position: fixed;
+    font-size: 50px;
+    right: 15px;
+    top: 80px;
+    background: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.menu {
+    position: fixed;
+    top: 145px;
+    right: 10px;
+    background-color: #000000;
+    padding: 5px;
+    border-radius: 15px;
+    height: auto;
+    width: 180px;
+}
+
+
+.menu ul {
+    list-style-type: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    text-align: center;
+}
+
+.menu ul li {
+    margin: 20px 0;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.menu ul li a:hover {
+    background-color: #555;
+}
+
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 60px auto; /* Centraliza a tabela */
+}
+
+th, td {
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #000000;
+    background-color: #f2f2f2;
+    font-size: 25px;
+}
+
+.horarios h1{
+    text-align: center;
+    font-size: 60px;
+    margin: 20px 0 -40px 0;
+}
+
+hr {
+    height: 2px;
+    color: black;
+    background-color: black;
+}
+
+.adrecursos {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    align-items: center;
+}
+
+.recursos {
+    display: block;
+    margin: 30px 0 200px 0;
+    gap: 15px;
+
+}
+
+.recursos img{
+    border-radius: 90px;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
