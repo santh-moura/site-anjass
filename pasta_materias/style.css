@@ -1,0 +1,153 @@
+/* styles.css */
+
+/* Estilo para o corpo da página */
+body {
+    background-color: rgb(235, 225, 212);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo para a tabela */
+table {
+    width: 80%;
+    height: 670px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+/* Estilo para cabeçalho da tabela */
+thead th {
+    background-color: #4CAF50;
+    height: 40px;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Estilo para corpo da tabela */
+tbody td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 25px;
+}
+
+/* Alternando as cores das linhas */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Estilo para o rodapé da tabela */
+tfoot td {
+    background-color: #f2f2f2;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: left;
+    border-top: 2px solid #ddd;
+}
+
+/* Estilo para célula "Nota" no rodapé */
+tfoot td:first-child {
+    text-align: left;
+}
+
+tfoot td[colspan="1"] {
+    text-align: end;
+}
+
+.red { background-color: #d43021; }
+.orange { background-color: #e07715; }
+.yellow { background-color: #cf9425; }
+.green { background-color: #0caf3a; }
+.teal { background-color: #00bcd4; }
+.blue { background-color: #1e57b9; }
+.pink { background-color: #ff5c8a; }
+.purple { background-color: #c03d88; }
+.brown { background-color: #6b1286; }
+
+.red th{ background-color: #d43021; }
+.orange th{ background-color: #e07715; }
+.yellow th{ background-color: #cf9425; }
+.green th{ background-color: #0caf3a; }
+.teal th{ background-color: #00bcd4; }
+.blue th{ background-color: #1e57b9; }
+.pink th{ background-color: #ff5c8a; }
+.purple th{ background-color: #c03d88; }
+.brown th{ background-color: #6b1286; }
+
+header{
+    width: 100%;
+    height: 120px;
+    margin: 0;
+    border-radius: 0 0 50px 50px;
+    margin-bottom: 60px;
+    overflow: hidden;
+}
+
+header img{
+    border-radius: 90px;
+    width: 160px;
+    position: absolute;
+    top: 30px;
+}
+
+header h1{
+    font-size: 50px;
+    position: relative;
+    top: 0px;
+    left: 160px;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+
+}
+
+header p{
+    font-size: 30px;
+    position: relative;
+    left: 13%;
+    margin-top: -40px;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+}
+
+.txtblt h1{
+    font-size: 55px;
+    margin-top: -30px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.botaovoltar{
+    display: inline-block;
+    padding: 10px;
+    font-size: 30px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.botaovoltar a{
+    text-decoration: none;
+    color: white;
+}
